@@ -1,17 +1,6 @@
-a=55
-print(a)
-
-b=44.4
-print(b)
-
-c = "aditya120"
-print(c)
-
-d=True
-print(d)
-
-e=None
-print(e)
-
-f = 5j
-print(f)
+per=int(input("enter your percentage"))
+yr=int(input("enter passing year"))
+#res=(per>=75 and yr==2024)
+#res=(per>=75 or yr==2024)
+res=not(per>=75 and yr==2024)
+print(res)
